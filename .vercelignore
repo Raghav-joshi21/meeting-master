@@ -1,0 +1,6 @@
+# never upload local secrets or build output; env vars are set in Vercel instead
+.env*
+!.env.local.example
+node_modules
+.next
+*.tsbuildinfo
